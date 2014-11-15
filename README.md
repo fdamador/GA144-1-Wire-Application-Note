@@ -4,7 +4,7 @@ This document describes a method to interface the Dallas Semiconductor high-prec
 
 The one-wire kernel only uses 1 of 144 nodes for sending and receiving bytes over the one-wire network. The code does not include CRC error checking, but could be added at a later time for real applications. This applications note shows the basic bare-bone mechanisms needed to both interface and communicate via one-wire bus.
 
-This effort was possible through Brad Rodriguez’s one-wire high level Forth implementation on CamelForth [6] with GNU GPL v3 license; however, the one-wire library is now release under the BSD 3-Clause license [10] with a small optional donation for its use.
+This effort was possible through Brad Rodriguez’s one-wire high level Forth implementation on CamelForth with GNU GPL v3 license; however, the one-wire library is now release under the BSD 3-Clause license with a small optional donation for its use.
 
 Licensing
 =========
